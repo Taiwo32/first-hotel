@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.navbar{
+    background-color: #333;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+a{
+    color: white;
+}
+.headleft{
+    float: left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+h1 a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.headright{
+    float: right;
+    width: 30%;
+}
+.headright ul{
+    list-style: none;
+}
+.headright ul li{
+    float: left;
+}
+.headright ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.headright ul li a:hover{
+    background: #444;
+    color: #f7c08a;
+}
+h1 a:hover{
+    background: #444;
+    color: #f7c08a;
+}
+.sec1{
+    background-image: url(hotel.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+}
+.sec1 p{
+    color: orangered;
+    padding-top: 30px;
+    font-size: x-large;
+    display: block; 
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sec1 h1{
+padding-top: 40px;
+font-size: 60px;
+color: orangered;
+}
+.orange{
+    color:orange;
+}
+.sec1 a {
+    padding: 13px 20px;
+    border:none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sec1 a:hover{
+    background: blue;
+    color: green;
+}
+.sec1 a{
+    color: white;
+    background:black;
+}
+.sec2{
+    height: 450px;
+    width: 100%;
+}
+.sec2 .right a:hover{
+    background: blue;
+}
+.left {
+    float: left;
+    background: url(hotel2.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position :100%;
+    object-fit:cover;
+    width: 50%;
+    height: 100%;
+
+}
+.right{
+    float: right;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    color: white;
+    background: #333;
+}
+.sec2 h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #f7c08a;
+}
+.sec2 p{
+    padding-bottom: 30px;
+    padding: 30px;
+}
+.sec2 a{
+    background-color: black;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+.sec3{
+    height: 50vh;
+    width: 100%;
+}
+.sec3 h3{
+    padding-top: 30px;
+}
+.sec3 .box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    height: 100%;
+}
+.sec3 p{
+    text-align: center;
+    margin: 20px;
+
+}
+.abc{
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-bottom: 30px;
+}
+.light{
+    background: #f7c08a;
+}
+.mainfooter{
+    text-align: center;
+    color: white;
+    padding: 3px ;
+    background: #444;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
